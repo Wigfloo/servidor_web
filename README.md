@@ -6,9 +6,9 @@
  ---
 
  ## 📌 1. Instalación de Apache
- ```bash
- sudo apt update
- sudo apt install apache2 -y
+
+sudo apt update
+sudo apt install apache2 -y
 
 Verificar que funciona:
 
@@ -16,7 +16,7 @@ para ver la ip usa el comando ifconfig
 
 http://<IP-de-la-pi> → aparece la página de bienvenida de Apache.
 
-##📌 2. Configuración del directorio web
+ ##📌 2. Configuración del directorio web
 
 Ruta por defecto: /var/www/html/
 
