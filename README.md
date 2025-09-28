@@ -1,18 +1,25 @@
-# servidor_web
- 
- 🚀 Servidor LAMP en Raspberry Pi  
- Montaje de un servidor web con **Apache2**, **PHP** y **MariaDB** para servir datos a Unity u otras aplicaciones.
+# 🌐 Servidor Web en Raspberry Pi  
+
+# 🚀 **Servidor LAMP (Linux, Apache, MariaDB, PHP)** montado en una Raspberry Pi para servir datos a **Unity** u otras aplicaciones.
+
+ ---
+
+ ## 📑 Tabla de contenidos
+ 1. [Instalación de Apache](#-1-instalación-de-apache)  
+ 2. [Configuración del directorio web](#-2-configuración-del-directorio-web)  
+ 3. [Instalación de PHP](#-3-instalación-de-php)  
+ 4. [Instalación de MariaDB](#-4-instalación-de-mariadb)  
+ 5. [Creación de base de datos y usuario](#-5-crear-base-de-datos-y-usuario)  
+ 6. [Tabla de prueba](#-6-crear-tabla-de-prueba)  
+ 7. [Endpoint en PHP](#-7-endpoint-en-php)  
 
  ---
 
  ## 📌 1. Instalación de Apache
+ ```bash
+ sudo apt update
+ sudo apt install apache2 -y
 
- ---
-```
-sudo apt update
-
-sudo apt install apache2 -y
-```
 Verificar que funciona:
 
 para ver la ip usa el comando ifconfig
