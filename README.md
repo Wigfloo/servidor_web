@@ -1,6 +1,6 @@
 # 🌐 Servidor Web en Raspberry Pi  
 
-# 🚀 **Servidor LAMP (Linux, Apache, MariaDB, PHP)** montado en una Raspberry Pi para servir datos a **Unity** u otras aplicaciones.
+🚀 **Servidor LAMP (Linux, Apache, MariaDB, PHP)** montado en una Raspberry Pi para servir datos a **Unity** u otras aplicaciones.
 
  ---
 
@@ -138,4 +138,6 @@ Salida esperada:
   {"id":3,"nombre":"Carlos","puntuacion":200}
 ]
 ```
+🎉 Resultado
 
+Ya tienes un servidor LAMP corriendo en tu Raspberry Pi, listo para servir datos a Unity o cualquier otra aplicación que consuma JSON.
