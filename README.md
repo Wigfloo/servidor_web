@@ -15,7 +15,7 @@
 
  ---
 
-#📌 1. Instalación de Apache
+# 📌 1. Instalación de Apache
  ```bash
  sudo apt update
  sudo apt install apache2 -y
@@ -27,7 +27,7 @@ para ver la ip usa el comando ifconfig
 http://<IP-de-la-pi> → aparece la página de bienvenida de Apache.
 ```
  ---
-#📌 2. Configuración del directorio web
+# 📌 2. Configuración del directorio web
 
 Ruta por defecto: /var/www/html/
 
@@ -36,7 +36,7 @@ Dar permisos al usuario actual:
 sudo chown -R $USER:$USER /var/www/html
 ```
  ---
-#📌 3. Instalación de PHP
+# 📌 3. Instalación de PHP
 ```
 sudo apt install php libapache2-mod-php -y
 sudo systemctl restart apache2
@@ -48,7 +48,7 @@ Abrir en navegador:
 http://<IP-de-la-pi>/info.php
 ```
  ---
-#📌 4. Instalación de MariaDB
+# 📌 4. Instalación de MariaDB
  
  ```
 sudo apt install mariadb-server php-mysql -y
@@ -60,7 +60,7 @@ Asegurar instalación:
 sudo mysql_secure_installation
  ```
  ---
-#📌 5. Crear base de datos y usuario
+# 📌 5. Crear base de datos y usuario
 
 Entrar como root:
  ```
@@ -78,7 +78,7 @@ Probar conexión:
  ```
 mysql -u wigfloo -p miweb
  ```
-#📌 6. Crear tabla de prueba
+# 📌 6. Crear tabla de prueba
  
  ```
 USE miweb;
@@ -93,7 +93,7 @@ INSERT INTO usuarios (nombre, puntuacion)
 VALUES ('George', 100), ('Ana', 150), ('Carlos', 200);
  ```
  ---
-#📌 7. Endpoint en PHP
+# 📌 7. Endpoint en PHP
 
 Archivo /var/www/html/getUsuarios.php:
 ```
