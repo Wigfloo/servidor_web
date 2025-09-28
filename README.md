@@ -15,7 +15,7 @@
 
  ---
 
-# 📌 1. Instalación de Apache
+#📌 1. Instalación de Apache
  ```bash
  sudo apt update
  sudo apt install apache2 -y
