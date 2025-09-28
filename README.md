@@ -7,6 +7,7 @@
 
  ## 📌 1. Instalación de Apache
 
+ ---
 sudo apt update
 sudo apt install apache2 -y
 
